@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import SlideCard from "./SlideCard";
 
 const Slider = () => {
-    return (
-        <div>
-            
+  return (
+    <>
+      <section className="homeSlider contentWidth ">
+        <div className="container">
+          <SlideCard />
         </div>
-    );
+      </section>
+    </>
+  );
 };
 
 export default Slider;
