@@ -97,3 +97,16 @@ button {
   cursor: pointer;
 }
 /*--------------------category-----------------------*/
+.btn-primary {
+  background-color: #e94560;
+  padding: 13px 40px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.top {
+  margin-top: 80px;
+}
+.mtop {
+  margin-top: 40px;
+}

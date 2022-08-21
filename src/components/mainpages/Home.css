@@ -1,0 +1,43 @@
+.home {
+  margin-top: 20px;
+}
+.homeSlider h1 {
+  font-size: 45px;
+}
+.homeSlider p {
+  margin: 20px;
+}
+.homeSlider ul {
+  position: absolute;
+  bottom: 20px;
+}
+.homeSlider ul li {
+  border: 2px solid #b8b7b7;
+  border-radius: 50%;
+  padding: 10px;
+}
+.homeSlider ul li button {
+  background: transparent !important;
+  color: transparent !important;
+}
+.homeSlider ul li button::before {
+  font-size: 15px;
+  color: #0f3460;
+  position: absolute;
+  top: 1.5px;
+  left: 0;
+  margin: auto;
+}
+.homeSlider .box {
+  display: flex !important;
+}
+.homeSlider .box .left {
+  width: 70%;
+}
+.homeSlider .box .right {
+  width: 70%;
+}
+.homeSlider .box img {
+  width: 100%;
+  height: 100%;
+}
